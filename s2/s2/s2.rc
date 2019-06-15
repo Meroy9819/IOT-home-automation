@@ -1,0 +1,209 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\s2.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\s2.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_S2_DIALOG DIALOG  0, 0, 416, 243
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CONTROL | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW | 0x80000000L
+CAPTION "s2"
+FONT 9, "MS Sans Serif"
+BEGIN
+    CONTROL         "detract",IDC_BUTTON8,"Button",BS_OWNERDRAW | WS_TABSTOP,43,107,50,14
+    CTEXT           "",IDC_STATIC2,40,73,61,27,SS_CENTERIMAGE
+    CONTROL         "charge",IDC_BUTTON9,"Button",BS_OWNERDRAW | WS_TABSTOP,43,183,50,14
+    CONTROL         "light",IDC_BUTTON11,"Button",BS_OWNERDRAW | WS_TABSTOP,146,23,50,14
+    CONTROL         "temp",IDC_BUTTON12,"Button",BS_OWNERDRAW | WS_TABSTOP,224,152,50,14
+    CONTROL         "button3(reset)",IDC_BUTTON13,"Button",BS_OWNERDRAW | WS_TABSTOP,224,115,50,14
+    LTEXT           "温度",IDC_STATIC1,235,81,35,19
+    LTEXT           "0",IDC_STATIC4,277,42,14,12
+    LTEXT           "湿度",IDC_STATIC5,316,82,31,16
+    LTEXT           "0",IDC_STATIC6,358,43,26,12
+    CONTROL         "showbalance",IDC_BUTTON7,"Button",BS_OWNERDRAW | WS_TABSTOP,43,144,50,14
+    CONTROL         "lighter",IDC_BUTTON4,"Button",BS_OWNERDRAW | WS_TABSTOP,145,73,50,14
+    CONTROL         "close",IDC_BUTTON5,"Button",BS_OWNERDRAW | WS_TABSTOP,146,129,50,14
+    CONTROL         145,IDC_Food,"Static",SS_BITMAP,50,28,37,37
+    LTEXT           "关闭自动控制",IDC_STATIC7,293,157,98,12
+    LTEXT           "开启自动控制",IDC_STATIC8,293,117,84,12
+    CONTROL         156,IDC_STATIC,"Static",SS_BITMAP,231,29,39,39
+    CONTROL         153,IDC_STATIC,"Static",SS_BITMAP,317,35,15,14
+    CONTROL         "Motor",IDC_BUTTON15,"Button",BS_OWNERDRAW | WS_TABSTOP,225,192,50,14
+    LTEXT           " ",IDC_STATIC30,289,195,88,8
+    CONTROL         "Button6",IDC_BUTTON16,"Button",BS_OWNERDRAW | WS_TABSTOP,144,192,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "s2.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "s2.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_S2_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 409
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 236
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_LightClose          BITMAP                  "C:\\Users\\buaa\\Desktop\\projects\\s2\\s2\\bitmap\\灯.bmp"
+IDB_Food                BITMAP                  "bitmap\\猫粮.bmp"
+IDB_Temp                BITMAP                  "C:\\Users\\buaa\\Desktop\\projects\\s2\\s2\\bitmap\\温度(正常).bmp"
+IDB_Recharge            BITMAP                  "bitmap\\充值.bmp"
+IDB_LightLevel2         BITMAP                  "bitmap\\灯（二档）.bmp"
+IDB_LightLevel1         BITMAP                  "bitmap\\灯（一档）.bmp"
+IDB_Distract            BITMAP                  "bitmap\\发放.bmp"
+IDB_TempLow             BITMAP                  "bitmap\\湿度(过低).bmp"
+IDB_HumidHigh           BITMAP                  "bitmap\\湿度(过高).bmp"
+IDB_HumidNormal         BITMAP                  "bitmap\\湿度(正常).bmp"
+IDB_HumidLow            BITMAP                  "bitmap\\温度(过低).bmp"
+IDB_TempHigh            BITMAP                  "bitmap\\温度(过高).bmp"
+IDB_Show                BITMAP                  "bitmap\\显示.bmp"
+IDB_Blank               BITMAP                  "bitmap\\bitmap1.bmp"
+IDB_Close               BITMAP                  "bitmap\\关闭.bmp"
+IDB_Start1              BITMAP                  "bitmap\\开启.bmp"
+IDB_MotorStop           BITMAP                  "bitmap\\电机关闭.bmp"
+IDB_Motor               BITMAP                  "bitmap\\电机开启.bmp"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\s2.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

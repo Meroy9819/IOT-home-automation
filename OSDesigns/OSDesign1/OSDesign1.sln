@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{A9579C99-2FCB-404B-BD28-4858F56A8BA4}") = "OSDesign1", "OSDesign1\OSDesign1.pbxml", "{EF5C690E-159E-4FD7-8EAE-41F083069B58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		SMDK6410 ARMV4I Debug|Platform Builder (_TGTCPU) = SMDK6410 ARMV4I Debug|Platform Builder (_TGTCPU)
+		SMDK6410 ARMV4I Release|Platform Builder (_TGTCPU) = SMDK6410 ARMV4I Release|Platform Builder (_TGTCPU)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF5C690E-159E-4FD7-8EAE-41F083069B58}.SMDK6410 ARMV4I Debug|Platform Builder (_TGTCPU).ActiveCfg = SMDK6410 ARMV4I Debug|Platform Builder (_TGTCPU)
+		{EF5C690E-159E-4FD7-8EAE-41F083069B58}.SMDK6410 ARMV4I Debug|Platform Builder (_TGTCPU).Build.0 = SMDK6410 ARMV4I Debug|Platform Builder (_TGTCPU)
+		{EF5C690E-159E-4FD7-8EAE-41F083069B58}.SMDK6410 ARMV4I Release|Platform Builder (_TGTCPU).ActiveCfg = SMDK6410 ARMV4I Release|Platform Builder (_TGTCPU)
+		{EF5C690E-159E-4FD7-8EAE-41F083069B58}.SMDK6410 ARMV4I Release|Platform Builder (_TGTCPU).Build.0 = SMDK6410 ARMV4I Release|Platform Builder (_TGTCPU)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

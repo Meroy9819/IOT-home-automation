@@ -1,0 +1,4 @@
+LIBRARY	"M104BPC"
+EXPORTS
+m104bpc_OpenPort @1
+m104bpc_ClosePort @2
